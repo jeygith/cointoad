@@ -1,7 +1,12 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+        fontFamily:{
+            'sans':['Avenir Next']
+        }
+    }
   },
-  variants: {},
+  variants: {
+  },
   plugins: []
 }

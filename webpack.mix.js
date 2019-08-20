@@ -18,7 +18,9 @@ mix.js('resources/js/app.js', 'public/js')
             require('tailwindcss')
         ]
     })
-    .version();
-
-mix.browserSync('http://127.0.0.1:8000');
+    .version()
+    .browserSync({
+        proxy: 'http://127.0.0.1:8000',
+        notify: false
+    });
 
