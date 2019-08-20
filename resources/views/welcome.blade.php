@@ -162,7 +162,7 @@
 
 
 <div class="container mx-auto sm:px-4 pt-6 pb-8">
-    <div class="bg-white border-t border-b sm:border-l sm:border-r sm:rounded shadow">
+    <div class="bg-white border-t border-b sm:border-l sm:border-r sm:rounded shadow mb-6">
         <div class="border-b px-6">
 
             <div class="flex justify-between -mb-px">
@@ -216,12 +216,7 @@
                     <span class="text-3xl align-top">.01</span>
                 </div>
                 <div class="text-green-400 flex items-center text-sm">
-                    <svg class="h-4 w-4 fill-current mr-1" version="1.1" id="Arrow_up" xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                         viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-<path d="M10,2.5L16.5,9H13v8H7V9H3.5L10,2.5z"/>
-                    </svg>
-                        <span>
+                        <span>&uarr;
                             CA$12,955.35 (154.16%)
                         </span>
                 </div>
@@ -281,6 +276,64 @@
                         Since last month (%)
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-wrap -mx-4">
+        <div class="w-1/2 px-4">
+            <div class="bg-white rounded border">
+                <div class="border-b ">
+                    <div class="flex justify-between px-6 -mb-px">
+                        <h3 class="text-blue-500 py-4 font-normal text-lg ">Your Portfolio</h3>
+                        <div class="flex">
+                            <div class="appearance-none py-4 text-blue-500 border-b border-blue-500 mr-3">
+                                List
+                            </div>
+                            <div
+                                class="appearance-none py-4 text-gray-500 border-b border-transparent hover:border-gray-500">
+                                Chart
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div>
+                    <div class="flex">
+
+                        <div class="w-1/4">
+                            <div class="rounded-full bg-orange-500">
+                                <svg class="fill-current text-blue-500 h-6 w-6 block" version="1.1" id="Bitcoin_Logo"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 90.7 612 611.1"
+                                     xml:space="preserve">
+                                <path id="Bitcoin_Symbol" d="M450.9,356.5c5.5-40.8-25.5-62.1-68-76.5l13.2-55.2l-33.6-8.1l-12.8,54
+	c-8.9-2.1-17.9-4.2-26.8-6l12.8-54l-34-8.1l-13.2,55.2c-7.2-1.7-14.5-3-21.7-4.7l0,0l-46.3-11.1l-8.5,35.7c0,0,25.1,5.5,24.2,6
+	c13.6,3.4,16.2,12.3,15.7,19.1l-14.9,62.9c0.9,0.4,2.1,0.4,3.4,1.3c-1.3-0.4-2.1-0.4-3.4-0.8l-20.4,88c-1.7,4.2-6,10.2-15.3,8.1
+	c0.4,0.4-24.7-6-24.7-6L160.7,495l43.8,10.2c8.1,2.1,16.2,3.8,23.8,6l-13.2,55.7l33.6,8.1l13.2-55.2c9.4,2.5,18.3,4.7,26.8,6.8
+	l-13.2,54.8l33.6,8.1l13.2-55.7c57.4,10.2,100.3,5.5,117.7-46.8c14-41.7-1.3-65.5-31.9-81.2C430.5,400.7,446.7,386.2,450.9,356.5z
+	 M375.3,464.8c-9.8,41.7-80.3,20-102.9,14.5l17.4-74C312.8,410.9,385.5,421.1,375.3,464.8z M384.6,356.5
+	c-8.9,37.8-67.6,19.6-86.7,14.9l16.2-67.1C332.8,308.9,394,317,384.6,356.5z"/>
+
+                                    </svg>
+                            </div>
+
+
+                        </div>
+                        <div class="Flex-sc-12n1bmd-0 bwzQDA">
+                        </div>
+                        <div class="w-1/4"></div>
+                        <div class="w-1/4"></div>
+                        <div class="w-1/4"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/2 px-4">
+            <div class="bg-white rounded border">
+                hello
             </div>
         </div>
     </div>
