@@ -281,8 +281,8 @@
     </div>
 
     <div class="flex flex-wrap -mx-4">
-        <div class="w-1/2 px-4">
-            <div class="bg-white rounded border">
+        <div class="w-full mb-6 md:mb-0 md:w-1/2 px-4 flex flex-col">
+            <div class="bg-white rounded border flex-grow flex flex-col shadow">
                 <div class="border-b ">
                     <div class="flex justify-between px-6 -mb-px">
                         <h3 class="text-blue-500 py-4 font-normal text-lg ">Your Portfolio</h3>
@@ -299,15 +299,14 @@
 
 
                 </div>
-                <div>
-                    <div class="flex px-6 py-6 text-gray-500 text-lg items-center border-b">
+                <div class="flex-grow flex px-6 py-6 text-gray-500 text-lg items-center border-b">
 
-                        <div class="w-1/4 flex items-center">
-                            <div class="rounded-full bg-orange-500 inline-flex mr-3">
-                                <svg class="fill-current text-white block h-8 w-8" version="1.1" id="Bitcoin_Logo"
-                                     xmlns="http://www.w3.org/2000/svg"
-                                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 90.7 612 611.1"
-                                     xml:space="preserve">
+                    <div class="w-1/4 flex items-center">
+                        <div class="rounded-full bg-orange-500 inline-flex mr-3">
+                            <svg class="fill-current text-white block h-8 w-8" version="1.1" id="Bitcoin_Logo"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 90.7 612 611.1"
+                                 xml:space="preserve">
                                 <path id="Bitcoin_Symbol" d="M450.9,356.5c5.5-40.8-25.5-62.1-68-76.5l13.2-55.2l-33.6-8.1l-12.8,54
 	c-8.9-2.1-17.9-4.2-26.8-6l12.8-54l-34-8.1l-13.2,55.2c-7.2-1.7-14.5-3-21.7-4.7l0,0l-46.3-11.1l-8.5,35.7c0,0,25.1,5.5,24.2,6
 	c13.6,3.4,16.2,12.3,15.7,19.1l-14.9,62.9c0.9,0.4,2.1,0.4,3.4,1.3c-1.3-0.4-2.1-0.4-3.4-0.8l-20.4,88c-1.7,4.2-6,10.2-15.3,8.1
@@ -317,108 +316,107 @@
 	c-8.9,37.8-67.6,19.6-86.7,14.9l16.2-67.1C332.8,308.9,394,317,384.6,356.5z"/>
 
                                     </svg>
-                            </div>
+                        </div>
 
-                            <span class="">Bitcoin</span>
-
-                        </div>
-                        <div class="w-1/4 flex items-center">
-                            <div class="bg-orange-500 h-2 rounded-full flex-grow ">
-
-                            </div>
-                            100%
-                        </div>
-                        <div class="w-1/4">
-                            <div class="text-right">
-                                0.0012 BTC
-                            </div>
-                        </div>
-                        <div class="w-1/4">
-                            <div class="text-right text-gray-400">
-                                CA$21.00
-                            </div>
-                        </div>
+                        <span class="">Bitcoin</span>
 
                     </div>
-
-                    <div class="flex px-6 py-6 text-gray-500 text-lg items-center border-b">
-
-                        <div class="w-1/4 flex items-center">
-                            <div class="rounded-full bg-gray-500 inline-flex mr-3">
-                                <svg class="fill-current text-white block h-8 w-8" xmlns="http://www.w3.org/2000/svg"
-                                     viewBox="0.847 0.876 329.254 329.256"><title>Litecoin</title>
-                                    <path
-                                        d="M330.102 165.503c0 90.922-73.705 164.629-164.626 164.629C74.554 330.132.848 256.425.848 165.503.848 74.582 74.554.876 165.476.876c90.92 0 164.626 73.706 164.626 164.627"
-                                        fill="#bebebe"/>
-                                    <path
-                                        d="M295.15 165.505c0 71.613-58.057 129.675-129.674 129.675-71.616 0-129.677-58.062-129.677-129.675 0-71.619 58.061-129.677 129.677-129.677 71.618 0 129.674 58.057 129.674 129.677"
-                                        fill="#bebebe"/>
-                                    <path
-                                        d="M155.854 209.482l10.693-40.264 25.316-9.249 6.297-23.663-.215-.587-24.92 9.104 17.955-67.608h-50.921l-23.481 88.23-19.605 7.162-6.478 24.395 19.59-7.156-13.839 51.998h135.521l8.688-32.362h-84.601"
-                                        fill="#fff"/>
-                                </svg>
-                            </div>
-
-                            <span class="">Litecoin</span>
+                    <div class="w-1/4 flex items-center">
+                        <div class="bg-orange-500 h-2 rounded-full flex-grow ">
 
                         </div>
-                        <div class="w-1/4 flex items-center">
-                            <div class="bg-orange-500 h-2 rounded-full flex-grow ">
+                        100%
+                    </div>
+                    <div class="w-1/4">
+                        <div class="text-right">
+                            0.0012 BTC
+                        </div>
+                    </div>
+                    <div class="w-1/4">
+                        <div class="text-right text-gray-400">
+                            CA$21.00
+                        </div>
+                    </div>
 
-                            </div>
-                            100%
+                </div>
+
+                <div class="flex-grow flex px-6 py-6 text-gray-500 text-lg items-center border-b">
+
+                    <div class="w-1/4 flex items-center">
+                        <div class="rounded-full bg-gray-500 inline-flex mr-3">
+                            <svg class="fill-current text-white block h-8 w-8" xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0.847 0.876 329.254 329.256"><title>Litecoin</title>
+                                <path
+                                    d="M330.102 165.503c0 90.922-73.705 164.629-164.626 164.629C74.554 330.132.848 256.425.848 165.503.848 74.582 74.554.876 165.476.876c90.92 0 164.626 73.706 164.626 164.627"
+                                    fill="#bebebe"/>
+                                <path
+                                    d="M295.15 165.505c0 71.613-58.057 129.675-129.674 129.675-71.616 0-129.677-58.062-129.677-129.675 0-71.619 58.061-129.677 129.677-129.677 71.618 0 129.674 58.057 129.674 129.677"
+                                    fill="#bebebe"/>
+                                <path
+                                    d="M155.854 209.482l10.693-40.264 25.316-9.249 6.297-23.663-.215-.587-24.92 9.104 17.955-67.608h-50.921l-23.481 88.23-19.605 7.162-6.478 24.395 19.59-7.156-13.839 51.998h135.521l8.688-32.362h-84.601"
+                                    fill="#fff"/>
+                            </svg>
                         </div>
-                        <div class="w-1/4">
-                            <div class="text-right">
-                                0.0012 BTC
-                            </div>
-                        </div>
-                        <div class="w-1/4">
-                            <div class="text-right text-gray-400">
-                                CA$21.00
-                            </div>
-                        </div>
+
+                        <span class="">Litecoin</span>
 
                     </div>
-                    <div class="flex px-6 py-6 text-gray-500 items-center border-b">
-
-                        <div class="w-1/4 flex items-center">
-                            <div class="rounded-full bg-indigo-500 inline-flex mr-3">
-                                <svg class="fill-current text-white block h-8 w-8" viewBox="0 0 256 417" version="1.1"
-                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     preserveAspectRatio="xMidYMid">
-                                    <g>
-                                        <polygon
-                                            points="127.9611 0 125.1661 9.5 125.1661 285.168 127.9611 287.958 255.9231 212.32"/>
-                                        <polygon points="127.962 0 0 212.32 127.962 287.959 127.962 154.158"/>
-                                        <polygon
-                                            points="127.9611 312.1866 126.3861 314.1066 126.3861 412.3056 127.9611 416.9066 255.9991 236.5866"/>
-                                        <polygon points="127.962 416.9052 127.962 312.1852 0 236.5852"/>
-                                        <polygon points="127.9611 287.9577 255.9211 212.3207 127.9611 154.1587"/>
-                                        <polygon points="0.0009 212.3208 127.9609 287.9578 127.9609 154.1588"/>
-                                    </g>
-                                </svg>
-                            </div>
-
-                            <span class="text-lg">Ether</span>
+                    <div class="w-1/4 flex items-center">
+                        <div class="bg-orange-500 h-2 rounded-full flex-grow ">
 
                         </div>
-                        <div class="w-1/4 flex items-center">
-                            <div class="bg-indigo-500 h-2 w-2 rounded-full "></div>
-                            0%
+                        100%
+                    </div>
+                    <div class="w-1/4">
+                        <div class="text-right">
+                            0.0012 BTC
                         </div>
-                        <div class="w-1/4">
-                            <div class="text-right">
-                                0.0000 BTC
-                            </div>
+                    </div>
+                    <div class="w-1/4">
+                        <div class="text-right text-gray-400">
+                            CA$21.00
                         </div>
-                        <div class="w-1/4">
-                            <div class="text-right text-gray-400">
-                                CA$0.00
-                            </div>
+                    </div>
+
+                </div>
+                <div class="flex-grow flex px-6 py-6 text-gray-500 items-center border-b">
+
+                    <div class="w-1/4 flex items-center">
+                        <div class="rounded-full bg-indigo-500 inline-flex mr-3">
+                            <svg class="fill-current text-white block h-8 w-8" viewBox="0 0 256 417" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 preserveAspectRatio="xMidYMid">
+                                <g>
+                                    <polygon
+                                        points="127.9611 0 125.1661 9.5 125.1661 285.168 127.9611 287.958 255.9231 212.32"/>
+                                    <polygon points="127.962 0 0 212.32 127.962 287.959 127.962 154.158"/>
+                                    <polygon
+                                        points="127.9611 312.1866 126.3861 314.1066 126.3861 412.3056 127.9611 416.9066 255.9991 236.5866"/>
+                                    <polygon points="127.962 416.9052 127.962 312.1852 0 236.5852"/>
+                                    <polygon points="127.9611 287.9577 255.9211 212.3207 127.9611 154.1587"/>
+                                    <polygon points="0.0009 212.3208 127.9609 287.9578 127.9609 154.1588"/>
+                                </g>
+                            </svg>
                         </div>
+
+                        <span class="text-lg">Ether</span>
 
                     </div>
+                    <div class="w-1/4 flex items-center">
+                        <div class="bg-indigo-500 h-2 w-2 rounded-full "></div>
+                        0%
+                    </div>
+                    <div class="w-1/4">
+                        <div class="text-right">
+                            0.0000 BTC
+                        </div>
+                    </div>
+                    <div class="w-1/4">
+                        <div class="text-right text-gray-400">
+                            CA$0.00
+                        </div>
+                    </div>
+
                 </div>
                 <div class="px-6 py-4">
                     <div class="text-center text-gray-500">
@@ -427,8 +425,8 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/2 px-4">
-            <div class="bg-white rounded border">
+        <div class="w-full md:w-1/2 px-4">
+            <div class="bg-white rounded border shadow">
                 <div class="border-b ">
                     <div class="flex justify-between px-6 -mb-px">
                         <h3 class="text-blue-500 py-4 font-normal text-lg ">Recent Activity</h3>
@@ -437,7 +435,34 @@
 
 
                 </div>
-                <div class="border-b">
+                <div>
+
+                    <div class="text-center px-6 py-8">
+                        <div class="inline-block mb-4">
+
+                            <svg class="fill-current text-gray-500 h-16 w-16" version="1.1" id="Rocket"
+                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                 y="0px"
+                                 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M11.933,13.069c0,0,7.059-5.094,6.276-10.924c-0.017-0.127-0.059-0.213-0.112-0.268c-0.054-0.055-0.137-0.098-0.263-0.115
+	C12.137,0.961,7.16,8.184,7.16,8.184C2.842,7.667,3.156,8.528,1.186,13.26c-0.377,0.902,0.234,1.213,0.904,0.959
+	c0.67-0.252,2.148-0.811,2.148-0.811l2.59,2.648c0,0-0.546,1.514-0.793,2.199c-0.248,0.686,0.055,1.311,0.938,0.926
+	C11.597,17.165,12.439,17.487,11.933,13.069z M12.942,7.153c-0.598-0.613-0.598-1.604,0-2.217c0.598-0.611,1.567-0.611,2.166,0
+	c0.598,0.611,0.598,1.603,0,2.217C14.509,7.764,13.539,7.764,12.942,7.153z"/>
+</svg>
+                        </div>
+                        <p class="text-2xl text-gray-600 font-medium mb-4">No buys or sells yet!</p>
+                        <p class="text-gray-500 max-w-xs mx-auto mb-4">You've successfully linked a payment method and
+                            can
+                            start buying digital currency</p>
+                        <div>
+                            <button type="button"
+                                    class="bg-blue-500 text-white border border-blue-600 px-6 py-4 rounded">
+                                Buy now
+                            </button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
